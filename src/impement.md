@@ -1,4 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/bIZQaFcG)
 # Lab3
 ## Class Characters
 > ### variable
@@ -14,11 +13,11 @@
 > > 3. Double speed = ความเร็วปกติ
 > > ### Level
 > > 1. int Level = เลเวลตัวละคร
-       >   private shield eequippedShield  = อุปกรณ์สวมใส่โล่
-       >   private sword equippedSword = อุปกรณ์สวมใส่ดาบ
+>   private shield eequippedShield  = อุปกรณ์สวมใส่โล่
+>   private sword equippedSword = อุปกรณ์สวมใส่ดาบ
 > ### method
 > > 1. Levelup = เพิ่ม Level ให้ตัวละคร
-> > 2. constructor
+> > 2. constructor 
 > > 3. equipSword = ใส่ดาบให้ตัวละคร
 > > 4. equipShield = ใส่โล่ให้ตัวละคร
 > > 5. unequipSword = ถอดดาบ
@@ -37,7 +36,7 @@
 > > 17. getEquippedShield = ดูว่าตัวละครถือโล่อะไรอยู่
 
 
-## Class sword
+## Class sword 
 > ### variable
 > > 1. double damage_base = ความเเรงพื้นฐาน
 > > 2. double damage = ความเเรงพของดาบ
@@ -48,15 +47,15 @@
 > > 3. updateDamage = อัปความเเรงพของดาบ
 >  ### Getter
 > > 1. getLevel  = ส่งเลเวลของดาบออกมา
-> > 2. getDamage = ส่งดาเสจของดาบออกมา
+> > 2. getDamage = ส่งดาเสจของดาบออกมา 
 
-## Class shield
+## Class shield 
 > ### variable
 > > 1. double base_defens = ค่าป้องกันพื้นฐาน
 > > 2. double defense = ค่าป้องกันโดยปกติ
 > > 3. int Level = Level โล่
 > ### method
-> > 1. constructor
+> > 1. constructor 
 > > 2. Levelup = ส่ง Level ของโล่
 > > 3. updateDefense = อัปเดทค่าของการป้องกัน
 >  ### Getter
