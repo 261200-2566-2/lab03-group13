@@ -15,8 +15,8 @@
 > > ### Level
 > > 1. int Level = เลเวลตัวละคร
 > > ### Equipment
-> >  private shield equippedShield  = อุปกรณ์สวมใส่โล่
-> >  private sword equippedSword = อุปกรณ์สวมใส่ดาบ
+> >  1. private shield equippedShield  = อุปกรณ์สวมใส่โล่
+> >  2. private sword equippedSword = อุปกรณ์สวมใส่ดาบ
 > ### method
 > > 1. Levelup = เพิ่ม Level ให้ตัวละคร
 > > 2. constructor
@@ -28,16 +28,16 @@
 > > 8. beAttck = โดนตัวละครอื่นโจมตีเเล้วคำนวณเลือด
 > > 9. CalDmg = คำนวณดาเมทที่โดน
 > ### Getter
-> > 8. getMaxHp = ส่งค่าเลือดที่มากที่สุดออกมา
-> > 9. getHp = ส่งค่าเลือด
-> > 10. getMaxMana =  ส่งค่ามานาที่มากที่สุดออกมา
-> > 11. getMana = ส่งค่ามานา
-> > 12. getBaseSpeed = ส่งค่าความเร็วที่มากที่สุดออกมา
-> > 13. getMaxBs = ส่งค่าความเร็วพื้นฐานออกมา
-> > 14. getSpeed = ส่งค่าความเร็ว
-> > 15. getLevel = ส่ง Level ของตัวละคร
-> > 16. getEquippedSword = ดูว่าตัวละครถือดาบอะไรอยู่
-> > 17. getEquippedShield = ดูว่าตัวละครถือโล่อะไรอยู่
+> > 1. getMaxHp = ส่งค่าเลือดที่มากที่สุดออกมา
+> > 2. getHp = ส่งค่าเลือด
+> > 3. getMaxMana =  ส่งค่ามานาที่มากที่สุดออกมา
+> > 4. getMana = ส่งค่ามานา
+> > 5. getBaseSpeed = ส่งค่าความเร็วที่มากที่สุดออกมา
+> > 6. getMaxBs = ส่งค่าความเร็วพื้นฐานออกมา
+> > 7. getSpeed = ส่งค่าความเร็ว
+> > 8. getLevel = ส่ง Level ของตัวละคร
+> > 9. getEquippedSword = ดูว่าตัวละครถือดาบอะไรอยู่
+> > 10. getEquippedShield = ดูว่าตัวละครถือโล่อะไรอยู่
 
 
 ## Class sword
@@ -63,5 +63,5 @@
 > > 2. Levelup = ส่ง Level ของโล่
 > > 3. updateDefense = อัปเดทค่าของการป้องกัน
 >  ### Getter
-> > 4. getLevel = ส่ง Level ของโล่ออกมา
-> > 5. getDefense = ส่ง ค่าป้องกันของดาบออกมา
+> > 1. getLevel = ส่ง Level ของโล่ออกมา
+> > 2. getDefense = ส่ง ค่าป้องกันของดาบออกมา
