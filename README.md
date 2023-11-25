@@ -14,8 +14,9 @@
 > > 3. Double speed = ความเร็วปกติ
 > > ### Level
 > > 1. int Level = เลเวลตัวละคร
-       >   private shield eequippedShield  = อุปกรณ์สวมใส่โล่
-       >   private sword equippedSword = อุปกรณ์สวมใส่ดาบ
+> > ### Equipment
+> >  private shield equippedShield  = อุปกรณ์สวมใส่โล่
+> >  private sword equippedSword = อุปกรณ์สวมใส่ดาบ
 > ### method
 > > 1. Levelup = เพิ่ม Level ให้ตัวละคร
 > > 2. constructor
