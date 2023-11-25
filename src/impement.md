@@ -24,7 +24,7 @@
 > > 6. Attack
 
 
-> ## Class sword 
+## Class sword 
 > > ### variable
 > > 1. double damage_base 
 > > 2. double damage
@@ -35,7 +35,7 @@
 > > 3. getLevel
 > > 4. getDamage
 
-> ## Class shield 
+## Class shield 
 > > ### variable
 > > 1. double base_defens
 > > 2. double defense
