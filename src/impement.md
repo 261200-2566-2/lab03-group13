@@ -25,7 +25,7 @@
 
 
 ## Class sword 
-> > ### variable
+> ### variable
 > > 1. double damage_base 
 > > 2. double damage
 > > 3. int Level
@@ -36,7 +36,7 @@
 > > 4. getDamage
 
 ## Class shield 
-> > ### variable
+> ### variable
 > > 1. double base_defens
 > > 2. double defense
 > > 3. int Level
