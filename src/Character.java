@@ -30,6 +30,7 @@ public class Character {
         maxHp = 100 + 10 * level;
         maxMana = 50 + 2 * level;
         maxBs = baseSpeed * (0.1 + 0.03 * level);
+        hp = maxHp ;
     }
 
     public void equipSword(Sword sword) {
@@ -57,12 +58,37 @@ public class Character {
             equippedShield = null;
         }
     }
+    private double CalDmg(Character Attcker){
+        double dmg = Attcker.equippedSword.getDamage();
+        if (equippedShield != null){
+            if (dmg - this.equippedShield.getDefense() > 0){
+                dmg -= this.equippedShield.getDefense();
+                return dmg ;
+            }else {
+                return 0;
+            }
+        }else {
+            if(dmg >= hp){
+                return hp ;
+            }else{
+                return dmg;
+            }
+        }
+    }
+
 
     public void attack(Character opponent) {
-        double damage = equippedSword.getDamage() - opponent.equippedShield.getDefense();
-        if (damage > 0) {
-            opponent.hp -= damage;
+        if (equippedSword != null){
+            opponent.beAttck(this);
+        }else{
+            System.out.println("No Sword in hande");
         }
+
+    }
+
+    private   void  beAttck(Character Attacker){
+        double dmg = CalDmg(Attacker);
+        this.hp -= dmg ;
     }
 
     // Getters for character attributes
